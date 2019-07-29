@@ -20,7 +20,7 @@ class TicTacToe
     index = @move
     token = gets
   end
-end
+
   
   
     
