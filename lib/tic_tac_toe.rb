@@ -13,7 +13,16 @@ class TicTacToe
   
   def input_to_index
     position = gets
-    @board.index("position") -1
+    @move = @board.index("position") -1
   end
+  
+  def move(index,token="X")
+    index = @move
+    token = gets
+  end
+  
+  
+    
+    
   
   
